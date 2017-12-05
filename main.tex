@@ -1,0 +1,115 @@
+% Use UTF-8 encoding!!
+% (c) Stefan Ulbrich, 2012
+% updated in May, 2015 by Michael Bechtel
+
+\documentclass[english,ngerman]{KITreprt}
+
+%% --------------------------------
+%% Obligatory Parameters:
+%% --------------------------------
+
+\renewcommand{\mythesis}{\bachelorsthesis} %\mastersthesis, \bachelorsthesis, \protocol, \studienarbeit, \diplomarbeit
+\renewcommand{\mytitle}{ \iflanguage{english}{Robust Regrasping-Actions on Humanoid Robots}{Robust Regrasping-Actions on Humanoid Robots} }
+\renewcommand{\myname}{\textcolor{red}{Stefan Reither}}
+%\renewcommand{\myshorttitle}{Die offizielle \LaTeX-Vorlage des HIS}
+\renewcommand{\myshorttitle}{}
+\cfoot{\mytitle}
+
+\renewcommand{\timestart}{4. November 2011}
+\renewcommand{\timeend}{\iflanguage{english}{February 7\textsuperscript{th},}{7. Februar} 2010}
+\newcommand{\referee}{Erstgutachter}
+\newcommand{\refereetwo}{Zweitgutachter}
+%\newcommand{\refereethree}{Drittgutachter}
+
+\newcommand{\advisor}{Betreuender Mitarbeiter 1}
+\newcommand{\advisortwo}{Betreuender Mitarbeiter 2}
+%\newcommand{\advisorthree}{Betreuender Mitarbeiter 3}
+
+\graphicspath{{./images/}}
+
+
+%% -------------------------------
+%% |  Information for PDF file   |
+%% -------------------------------
+\hypersetup{
+	pdfauthor={\myname},
+	pdftitle={\mytitle},
+	pdfsubject={Not set},
+	pdfkeywords={Not set}
+}
+
+
+
+
+\begin{document}
+
+
+\selectlanguage{ngerman}
+%\selectlanguage{english}
+
+
+\maketitle
+
+\thispagestyle{empty}
+\newpage
+%\topskip0pt
+\vspace*{\fill}
+\noindent
+\textbf{Erkl\"arung:}\\
+\\
+\noindent
+Ich versichere hiermit, dass ich die Arbeit selbstst\"andig verfasst habe, keine anderen als die angegebenen Quellen und Hilfsmittel benutzt habe, die w\"ortlich oder inhaltlich \"ubernommenen
+Stellen als solche kenntlich gemacht habe und die Satzung des Karlsruher Instituts f\"ur Technologie zur Sicherung guter wissenschaftlicher Praxis beachtet habe.\\
+\\
+\\
+\noindent
+Karlsruhe, den \timeend 
+\begin{flushright}
+
+\myname
+\end{flushright}
+
+\vspace*{\fill}
+\cleardoublepage
+
+
+
+\thispagestyle{empty}
+\newpage
+%\topskip0pt
+\vspace*{\fill}
+\noindent
+\textbf{Abstract:}\\
+\\
+\noindent
+English abstract goes here.
+\vspace*{\fill}
+\cleardoublepage
+
+
+\thispagestyle{empty}
+\newpage
+%\topskip0pt
+\vspace*{\fill}
+\noindent
+\textbf{Kurzzusammenfassung:}\\
+\\
+\noindent
+Deutsche Kurzzusammenfassung hier.
+\vspace*{\fill}
+\cleardoublepage
+
+
+\tableofcontents
+\setcounter{page}{1}
+
+
+\input{includes/Einleitung.tex}
+
+
+
+\bibliographystyle{dinat} %-Deutsch
+
+ \bibliography{Example}
+
+\end{document}
