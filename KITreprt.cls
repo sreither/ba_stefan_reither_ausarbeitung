@@ -60,7 +60,6 @@
 %\setlength{\parindent}{1em}     % 1em = Grösse, die ein grosses M der aktuellen Schrift
 
 
-
 % hyperref userpackage moved down here because hyperref should be loaded as the last package: http://tex.stackexchange.com/questions/16268/warning-with-footnotes-namehfootnote-xx-has-been-referenced-but-does-not-exi
 \usepackage[raiselinks=true,
 bookmarks=true,

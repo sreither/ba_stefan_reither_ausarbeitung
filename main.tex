@@ -10,7 +10,7 @@
 
 \renewcommand{\mythesis}{\bachelorsthesis} %\mastersthesis, \bachelorsthesis, \protocol, \studienarbeit, \diplomarbeit
 \renewcommand{\mytitle}{ \iflanguage{english}{Robust Regrasping-Actions on Humanoid Robots}{Robust Regrasping-Actions on Humanoid Robots} }
-\renewcommand{\myname}{\textcolor{red}{Stefan Reither}}
+\renewcommand{\myname}{Stefan Reither}
 %\renewcommand{\myshorttitle}{Die offizielle \LaTeX-Vorlage des HIS}
 \renewcommand{\myshorttitle}{}
 \cfoot{\mytitle}
@@ -21,8 +21,8 @@
 \newcommand{\refereetwo}{Zweitgutachter}
 %\newcommand{\refereethree}{Drittgutachter}
 
-\newcommand{\advisor}{Betreuender Mitarbeiter 1}
-\newcommand{\advisortwo}{Betreuender Mitarbeiter 2}
+\newcommand{\advisor}{Dr.-Ing. Mirko Wächter}
+\newcommand{\advisortwo}{Dr.-Ing. Nikolaus Vahrenkamp}
 %\newcommand{\advisorthree}{Betreuender Mitarbeiter 3}
 
 \graphicspath{{./images/}}
@@ -105,11 +105,15 @@ Deutsche Kurzzusammenfassung hier.
 
 
 \input{includes/Einleitung.tex}
-
+\input{includes/Stand_der_Technik.tex}
+\input{includes/Grundlagen.tex}
+\input{includes/Methodik.tex}
+\input{includes/Evaluation.tex}
+\input{includes/Zusammenfassung.tex}
 
 
 \bibliographystyle{dinat} %-Deutsch
 
- \bibliography{Example}
+\bibliography{LiteraturVerzeichnis}
 
 \end{document}

@@ -5,3 +5,7 @@
 *.log
 *.toc
 *.pdf
+*.bbl
+*.brf
+*.blg
+*.tks
