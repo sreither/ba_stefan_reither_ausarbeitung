@@ -9,3 +9,4 @@
 *.brf
 *.blg
 *.tks
+!AnderePaper/*
